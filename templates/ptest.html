@@ -1,0 +1,277 @@
+{%extends 'base.html' %}
+
+{%block head%}
+
+{% endblock %}
+
+{% block body %}
+
+<!--Navigation-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+	<a class="navbar-brand" href="#">CG</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+  
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="#">Personality Types <span class="sr-only">(current)</span></a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="#">Profiles</a>
+		</li>
+		<li class="nav-item dropdown">
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			Dropdown
+		  </a>
+		  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<a class="dropdown-item" href="#">Action</a>
+			<a class="dropdown-item" href="#">Another action</a>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">Something else here</a>
+		  </div>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link disabled" href="#">Disabled</a>
+		</li>
+	  </ul>
+	  <form class="form-inline my-2 my-lg-0">
+		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+		<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+	  </form>
+	</div>
+  </nav>
+<!--Question section-->
+<div class="container-fluid">
+    <form method="POST" action = '/suggestion'>
+    <div class="row padding">
+        <div class ="col-lg-6">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Question 1</div>
+                    <div class="panel-body">
+                       It's the fourth week of the December holidays, 
+                        your classmates have planned a get together at paradise lost and youve been invited :
+                    
+                        <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default">
+                                <input type="radio" autocomplete="off" value="Extrovert" name = 'question1'/> 
+                                You attend the party because youve missed your friends
+                            </label>
+                            <label class="btn btn-default">
+                                <input type="radio" autocomplete="off" value="Introvert" name = 'question1' /> 
+                                You know the attendance will be high so you make an excuse not to go because you don't really enjoy crowds
+                                </label>
+                                <br>
+                        </div>
+                        </div>
+                        </div>
+        </div>
+    </div>
+    <div class="row padding">
+        <div class ="col-lg-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">Question 2</div>
+                <div class="panel-body">
+                    You are in a Geography class,
+                    the lesson today is on rocks located
+                    in and around Mt Kenya :
+                
+                    <div class="btn-group" data-toggle="buttons">
+                        <label class="btn btn-default">
+                            <input type="radio" autocomplete="off" value="Intuition" name = 'question2'  /> 
+                            You try and imagine what the rocks look like, 
+                            and plan on doing further research to understand the rocks more 
+                        </label>
+                        <label class="btn btn-default">
+                            <input type="radio" autocomplete="off" value="Sensing" name = 'question2' /> 
+                            You memorize the names of the rocks for the sake of the exams that are in two weeks
+                            </label>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <div class="row padding">
+                <div class ="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Question 3</div>
+                        <div class="panel-body">
+                           You win the school representative post and you are elected the prefect
+                           in charge of the dining hall
+                            <div class="btn-group" data-toggle="buttons">
+                                <label class="btn btn-default">
+                                    <input type="radio" autocomplete="off" value="Thinking" name = 'question3'/> 
+                                    You adhere to the rules and your responsibility as a 
+                                    prefect. To you the rules apply to everyone.
+                                </label>
+                                <label class="btn btn-default">
+                                    <input type="radio" autocomplete="off" value="Feeling" name = 'question3'/> 
+                                    You rewards your friends who helped you campaign by
+                                    giving them extra bread in the morning and servings
+                                    during meals.
+                                    </label>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+                    </div>
+
+                    <div class="row padding">
+                        <div class ="col-lg-6">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">Question 4</div>
+                                <div class="panel-body">
+                                   There are sports functions in your school today and 
+                                   there are more than 20 schools in attendance,
+                                   you are however required to stay in class or else 
+                                   get punished. The lesson teacher hasn't been able to attend 
+                                   the class
+                                
+                                    <div class="btn-group" data-toggle="buttons">
+                                        <label class="btn btn-default">
+                                            <input type="radio" autocomplete="off" value="Perceiving" name = 'question4'/> 
+                                            You decide together with the rest of the class to 
+                                            sneak out and attend the event. You are okay with
+                                            the punishment if you are caught 
+                                             
+                                        </label>
+                                        <label class="btn btn-default">
+                                            <input type="radio" autocomplete="off" value="Judging" name = 'question4'/> 
+                                            You decide against sneaking out and stay in class
+                                            to avoid punishment
+                                            </label>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+
+                            <div class="row padding">
+                                <div class ="col-lg-6">
+                                    <div class="panel panel-default">
+                                        <div class="panel-heading">Question 5</div>
+                                        <div class="panel-body">
+                                           You are a member of both the music and chemistry club.
+                                           A function for each of the clubs is held on the same day.
+                                        <br>
+                                            <div class="btn-group" data-toggle="buttons">
+                                                <label class="btn btn-default">
+                                                    <input type="radio" autocomplete="off" value="Science" name = 'question5'/> 
+                                                    You attend the chemistry Science Congress 
+                                                </label>
+                                                <label class="btn btn-default">
+                                                    <input type="radio" autocomplete="off" value="Art" name = 'question5' /> 
+                                                    You attend the music festival
+                                                    </label>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </div>
+
+                                    <div class="row padding">
+                                        <div class ="col-lg-6">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">Question 6</div>
+                                                <div class="panel-body">
+                                                   You are more comfortable when:
+                                                
+                                                    <div class="btn-group" data-toggle="buttons">
+                                                        <label class="btn btn-default">
+                                                            <input type="radio" autocomplete="off" value="Technical" name = 'question6'/> 
+                                                            You are doing practicals and taking class trips.
+                                                        </label>
+                                                        <label class="btn btn-default">
+                                                            <input type="radio" autocomplete="off" value="Corporate" name = 'question6'/> 
+                                                            You are attending sit-in theoretical classes
+                                                            </label>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
+                                            </div>
+
+                                            <div class="row padding">
+                                                <div class ="col-lg-6">
+                                                    <div class="panel panel-default">
+                                                        <div class="panel-heading">Question 7</div>
+                                                        <div class="panel-body">
+                                                           What was your K.C.S.E grade?
+                                                        
+                                                            <div class="btn-group" data-toggle="buttons">
+                                                                <label class="btn btn-default">
+                                                                    <input type="radio" autocomplete="off" value="A" name = 'question7'/> 
+                                                                    A
+                                                                </label>
+                                                                <label class="btn btn-default">
+                                                                    <input type="radio" autocomplete="off" value="B" name = 'question7'/> 
+                                                                    B
+                                                                    </label>
+                                                                    <label class="btn btn-default">
+                                                                        <input type="radio" autocomplete="off" value="C" name = 'question7'  /> 
+                                                                        C
+                                                                        </label>
+                                                                        <label class="btn btn-default">
+                                                                            <input type="radio" autocomplete="off" value="D"  name = 'question7'/> 
+                                                                            D
+                                                                            </label>
+                                                                    
+
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    </div>
+                                                    <br>
+                <!-- <a href="Sugestion.html"> -->
+                    <button type="submit" class="btn btn-outline-secondary lg">Submit</button>
+                <!-- </a> -->
+            </form>
+</div>
+
+          <!--              <br />
+                        <br />
+            </div>
+            </div>
+            </div>-->
+        
+<!--- Connect -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class ="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!--- Footer -->
+<footer>
+<div class="container-fluid padding">
+    <div class="row-text-center">
+        <div class="col-md-4">
+            <h2>Contact Us</h2>
+            <hr class="light">
+            <p>alexnzioka42@gmail.com</p>
+            <p>Nairobi-00100</p>
+            <p>+254722336655</p>
+            <p>+254733998877</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+</footer>
+{% endblock %}

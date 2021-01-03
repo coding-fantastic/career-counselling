@@ -574,9 +574,9 @@ class GetGourses(KnowledgeEngine):
 
             },
         'careersToAvoid':{
-            "Retail Sales Workers":"Retail sales workers, who only need on-the-job training, may help customers locate items, take payments for purchases, and arrange products in the store. INFP personalities may find that this type of work offers limited opportunities to use their creativity and that it lacks the meaning they desire from their work. Retail sales workers typically have a pretty consistent work routine as well, and the lack of variety may not appeal to INFP personality types. "
+            "Retail Sales Workers":"Retail sales workers, who only need on-the-job training, may help customers locate items, take payments for purchases, and arrange products in the store. INFP personalities may find that this type of work offers limited opportunities to use their creativity and that it lacks the meaning they desire from their work. Retail sales workers typically have a pretty consistent work routine as well, and the lack of variety may not appeal to INFP personality types. ",
             
-             "Principals":"School principals have a lot of people and resources that they oversee. They normally need a master's degree and license, and they use their skills to make decisions about things like school schedules and budgets. Those with an INFP personality may find it overwhelming to deal with so many people on a regular basis; INFPs are introverts and tend to prefer working with people one-on-one or in small groups, and addressing an entire school population or groups of parents may not appeal to them. Principals also have to make a lot of conventional decisions, which is not one of the INFP strengths." 
+            "Principals":"School principals have a lot of people and resources that they oversee. They normally need a master's degree and license, and they use their skills to make decisions about things like school schedules and budgets. Those with an INFP personality may find it overwhelming to deal with so many people on a regular basis; INFPs are introverts and tend to prefer working with people one-on-one or in small groups, and addressing an entire school population or groups of parents may not appeal to them. Principals also have to make a lot of conventional decisions, which is not one of the INFP strengths." 
         }
         }))
 

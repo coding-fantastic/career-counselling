@@ -32,7 +32,7 @@ class GetGourses(KnowledgeEngine):
         #self.declare(Fact(courses=['You are an ESTJ - They are known as natural leaders who work best while in charge','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
         
         self.declare(Fact(courses={
-        'type':'You are an ESTJ .',
+        'type':'You are an ESTJ -Extrovert Sensing Thinking Judging .',
         'main':' You are organized , dedicated , honest , dignified , traditional and you belive what you do is right and socially acceptable. You often take the role of a leader and people look to you a for guidance and counsel . You are methodical , organized , dedicated , reliable and direct . You excel at the following set procedures closely and adher to guidelines . You are dedicated and hardworking . Guiding others is something you feel strongly about .  If you are an ESTJ, you may want to consider the following careers:',
         'careers':{
             'Judge':'A public official authorized to decide questions brought before a court. A judge preside over a court hearings and trials , supervise legale proceedings and uphold the rights of individuals involved in a legal process. They ensure that trials are conducted according to established rules and procedurs which may include detemining how testimony is given and evidence submitted . These professinals  can be elected by the public or appoineted by goverments. Judges often work long hours in pereparation for hearings and somtimes must trvael  for them . To be able to be a judge in kenya you must have an undergraduate degree in one of the following political science , history , business or economics  . This are offered in  - University of Nairobi. , Kenyatta University , Mount Kenya University  , Daystar University  , Strathmore University , Technical University of Kenya , JKUAT.',
@@ -560,7 +560,7 @@ class GetGourses(KnowledgeEngine):
         # self.declare(Fact(courses=['You are an INFP- You ahve a strong sense of personal values, are highly creative and offer support from behind the scenes','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
 
         self.declare(Fact(courses={
-        'type':'You are an INFP .',
+        'type':'You are an INFP - Introvert Intuition Feeling Perceving .',
         'main':'  INFPs are quiet and prefer not to talk about themselves. They enjoy spending time alone in quiet places. They love analyzing signs and symbols and enjoy getting lost in their imagination and daydreams. In professional environments, INFPs seek to learn new things and change the world. While they usually bring intensity and enthusiasm to projects, they often find it challenging to sustain their excitement for long periods of time. If you are an INFP, some careers you may want to consider are:',
         'careers':{
             "Writer":"INFP Personality Types have great skills for expression, both verbal and written, making a career as a writer an ideal choice. Whether authoring a novel, writing a blog, or drafting long-form investigative pieces for a newspaper, INFPs would especially excel in this career if given the opportunity to write about a topic that was meaningful to them. To become a writer, a bachelor's degree in journalism, communications, or English is typically a good starting point. ",
@@ -654,7 +654,7 @@ class GetGourses(KnowledgeEngine):
         #self.declare(Fact(courses=['You are an ISTJ - You are a person who appers serious and formal. You love  traditions and believe in values like honor, hard work and social responsibility.',' You are typically reserved, quiet, calm and upright.','  At work, you are known for being responsible and reliable.',' You thrive in an organized workplace and prefer to have rules laid out for you. ',' You like to use analytical and critical thought and you are highly detail-oriented.',' If you are an ISTJ, you may want to consider the following roles:']))
         #self.declare(Fact(courses))
         self.declare(Fact(courses={
-        'type':'You are an ISTJ .',
+        'type':'You are an ISTJ - Introvert Sensing Thinking Judging .',
         'main':' People with this personality generally appear serious and formal. They usually love traditions and believe in values like honor, hard work and social responsibility. They are typically reserved, quiet, calm and upright. At work, they are known for being responsible and reliable. They thrive in an organized workplace and prefer to have rules laid out for them. They like to use analytical and critical thought and are highly detail-oriented. If you are an ISTJ, you may want to consider the following roles:',
         'careers':{
             'Business analyst':'ISTJ types love order and structure, which makes them a good fit for a business analyst position. This job involves gathering, organizing and processing data to come up with decisive recommendations about the business. Working with concrete numbers and statistics is something that ISTJ types excel at and enjoy. Managing and sorting through lots of information is easy for ISTJ types since they are very organized and detail-oriented. This is offered in SCHOOL OF BUSINESS in .  - University of Nairobi. , Kenyatta University , Mount Kenya University  , Daystar University  , Strathmore University , Technical University of Kenya , JKUAT.',

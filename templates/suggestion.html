@@ -80,7 +80,7 @@
 	<div class="text-center">
 		<font color = "blue" >careers for you</font> 
 		<br>
-		<font color = "red" >careers to avoid</font>
+		
 		<br><br>
 	</div>
 	
@@ -94,15 +94,21 @@
 		
 	<!-- </ol> -->
 
-	<!-- <p>{{ courses['careersToAvoid'] }}</p> -->
-	<ol>
+	<div class="text-center">
+		<font color = "red" >careers to avoid</font>
+	</div>
+	
+	<br>
+	<!-- <ol> -->
 		{% for career, description in courses['careersToAvoid'].items() %}
-			<li><font color = "red" >{{ career }}</font></li>
+			<!-- <li> -->
+				<font color = "red" >{{ career }}</font>
+			<!-- </li> -->
 			{{description }}
 			<br><br>
 		{% endfor %}
 		
-	</ol>
+	<!-- </ol> -->
 </div>
 
 

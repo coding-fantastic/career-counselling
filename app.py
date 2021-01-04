@@ -572,6 +572,12 @@ class GetGourses(KnowledgeEngine):
             "Physical Therapist":"An INFP Personality Type would make an excellent physical therapist because their unrelenting sense of optimism would likely help clients and patients who are undergoing painful physical therapy. Physical therapists diagnose ailments and create personalized therapy plans for recovery and wellness. Many physical therapists develop personal relationships with their clients, which an INFP greatly enjoys. Physical therapists must complete a Doctor of Physical Therapy program in order to practice. ",
             "Editor":"",
             "Graphic Designer":"",
+            "Photographer":"",
+            "Film editor":"",
+            "Videographer":"",
+            "Interpreter or translator":"",
+            "Editorial director":"",
+
 
 
             },

@@ -570,6 +570,8 @@ class GetGourses(KnowledgeEngine):
             "School and Career Counselor":"School and career counselors work with students as they make decisions regarding their studies and future careers. An INFP Personality Type would relish the opportunity to provide personalized guidance and career planning for students. These professionals assist with students' academic and personal issues, and provide tools for goal setting. To become a school and career counselor, you will need to achieve a master's degree in counseling and be licensed by the state in which you work.",
 
             "Physical Therapist":"An INFP Personality Type would make an excellent physical therapist because their unrelenting sense of optimism would likely help clients and patients who are undergoing painful physical therapy. Physical therapists diagnose ailments and create personalized therapy plans for recovery and wellness. Many physical therapists develop personal relationships with their clients, which an INFP greatly enjoys. Physical therapists must complete a Doctor of Physical Therapy program in order to practice. ",
+            "Editor":"",
+            "Graphic Designer":"",
 
 
             },

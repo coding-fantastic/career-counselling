@@ -894,11 +894,17 @@ class PersonalityTest(KnowledgeEngine):
              
             },
         'careersToAvoid':{
-            "":"", 
+            "Artist":"Although ISTP types like to create tangible things in their work, they prefer practical work to creative pursuits.", 
             
-            "":"",
-            
-            "":""
+            Clergy: As with social work, this career path is not a good fit for the ISTP type’s preference for logical, analytical tasks.
+
+            Manager: ISTP types prefer to work on detailed tasks rather than deal with coworker dynamics and big-picture projects.
+
+            Marketer: There are no clear-cut solutions to marketing challenges, which can be frustrating for problem-solving ISTP types.
+
+            Receptionist: The social requirements of this job are usually overwhelming for an introverted ISTP type.
+
+            Social worker: Working with vulnerable populations can be emotionally taxing, especially for ISTP types.
         }
         }))
 

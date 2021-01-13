@@ -762,17 +762,17 @@ class GetGourses(KnowledgeEngine):
              
             },
         'careersToAvoid':{
-            "Artist":"Although ISTP types like to create tangible things in their work, they prefer practical work to creative pursuits.", 
+            "Accountant":"This type of work feels monotonous and boring to most ISFP types.",
+
+            "Attorney":"The rigidity of the law tends to be unappealing to creative ISFP types.",
             
-            "Clergy": "As with social work, this career path is not a good fit for the ISTP type’s preference for logical, analytical tasks.",
-
-            "Manager": "ISTP types prefer to work on detailed tasks rather than deal with coworker dynamics and big-picture projects.",
-
-            "Marketer": "There are no clear-cut solutions to marketing challenges, which can be frustrating for problem-solving ISTP types.",
-
-            "Receptionist": "The social requirements of this job are usually overwhelming for an introverted ISTP type.",
-
-            "Social worker": "Working with vulnerable populations can be emotionally taxing, especially for ISTP types."
+            "Manager":" ISFP types prefer to work alone rather than focus on coordinating teams",
+            
+            "Psychologist":"ISFP types struggle with the long-term planning involved in counseling others.",
+            
+            "Salesperson":"This job requires an intense level of socializing that ISFP types do not enjoy.",
+            
+            "Surgeon":"Long hours spent in an operating room can grueling for spontaneous ISFP types.",
         }
         }))
 

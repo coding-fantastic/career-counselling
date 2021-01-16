@@ -511,9 +511,9 @@ class GetGourses(KnowledgeEngine):
 
             "Engineer": "This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best.",
 
-            "Military officer": "For INFJ types, it's very difficult to follow rigid instructions without concern for personal situations and emotions."
+            "Military officer": "For INFJ types, it's very difficult to follow rigid instructions without concern for personal situations and emotions.",
 
-            "Restaurant manager": "Restaurant workplaces tend to feel too noisy and unorganized for introverted types."
+            "Restaurant manager": "Restaurant workplaces tend to feel too noisy and unorganized for introverted types.",
 
             "Sales representative": "While INFJs may make great salespeople, the typical extroversion of these professionals and the nature of the work may be unenjoyable and uncomfortable for INFJs."
 

@@ -499,7 +499,7 @@ class GetGourses(KnowledgeEngine):
 
             "Research associate":"",
             
-            "Training specialist":"",
+            "Training specialist":""
                     
              
             },

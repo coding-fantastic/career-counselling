@@ -515,7 +515,7 @@ class GetGourses(KnowledgeEngine):
 
             "Restaurant manager": "Restaurant workplaces tend to feel too noisy and unorganized for introverted types.",
 
-            "Sales representative": "While INFJs may make great salespeople, the typical extroversion of these professionals and the nature of the work may be unenjoyable and uncomfortable for INFJs."
+            "Sales representative": "While INFJs may make great salespeople, the typical extroversion of these professionals and the nature of the work may be unenjoyable and uncomfortable for INFJs.",
 
             "Politician": "INFJs likely won’t tolerate some of the necessary navigation it takes to be successful in politics. They may, however, find adjacent work interesting to help underserved or underrepresented members of the community, such as positions that help change or maintain policies."
 

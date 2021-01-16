@@ -480,7 +480,47 @@ class GetGourses(KnowledgeEngine):
     #INFJ
     @Rule(OR(Questions(answers=["INFJ", "Science", "Technical", "A"]), Questions(answers=["INFJ", "Science", "Technical", "B"])))
     def infj_STA(self):
-        self.declare(Fact(courses=['You are an INFJ- You are blessed with an idealistic vision and work best when trying to make a vision reality','Councillor', "Teacher", "Medic", "Dentist", "Chiropracter",'Psychiatrist','Child worker','Educational Consultant','Scientist','Social Worker']))
+        self.declare(Fact(courses={
+        'type':'You are an INFJ - Introvert Intution Feeling Judging .',
+        "main":" This personality type is known for being insightful, creative and decisive, all of which are qualities that make them an excellent fit for certain career paths. Learn more about the unique skills and abilities associated with INFJ types, and find out which jobs are the best fit for people with this personality. Their intuitive nature allows them to interpret and add meaning when presented with information. They make choices based on feeling, which involves taking emotions and complex circumstances into account. They tend to be decisive and trust their judgment when evaluating a situation or person. The following characteristics are considered to be the most common INFJ personality traits:    Altruistic    Creative    Decisive    Dedicated    Empathetic    Helpful    Idealist    Insightful    Loyal    Quiet    Reflective    Strategic .  When it comes to their careers, INFJ types like to work independently or in small groups. They appreciate a peaceful work environment that provides time to fully develop their ideas. They are deep thinkers who like to apply their intellect to work challenges. Once INFJ types develop a plan, they are good at following through. They are empathetic and caring individuals, so most people with this personality type pursue a meaningful career that contributes to the well-being of others. ",
+
+        'careers':{
+            "Human resources professional":" ",
+
+            "Entrepreneur":"",
+
+            "Environmental officer":"",
+            
+            "Office manager":"", 
+
+            "Product manager":"",
+
+            "Project coordinator/manager":"",
+
+            "Research associate":"",
+            
+            "Training specialist":"",
+                    
+             
+            },
+        'careersToAvoid':{
+            
+            "Accounting and finance": "Jobs that focus more on profit and the bottom line than human elements can be frustrating for INFJ types."
+
+            "Emergency medical technician": "The unpredictable and sometimes chaotic nature of this job can be overwhelming for an INFJ type who loves order and quiet."
+
+            "Engineer": This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best.
+
+    Military officer: For INFJ types, it's very difficult to follow rigid instructions without concern for personal situations and emotions.
+
+    Restaurant manager: Restaurant workplaces tend to feel too noisy and unorganized for introverted types.
+
+    Sales representative: While INFJs may make great salespeople, the typical extroversion of these professionals and the nature of the work may be unenjoyable and uncomfortable for INFJs.
+
+    Politician: INFJs likely won’t tolerate some of the necessary navigation it takes to be successful in politics. They may, however, find adjacent work interesting to help underserved or underrepresented members of the community, such as positions that help change or maintain policies.
+
+        }
+        }))
 
     @Rule(Questions(answers=["INFJ", "Science", "Technical", "C"]))
     def infj_STC(self):

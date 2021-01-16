@@ -509,7 +509,7 @@ class GetGourses(KnowledgeEngine):
 
             "Emergency medical technician": "The unpredictable and sometimes chaotic nature of this job can be overwhelming for an INFJ type who loves order and quiet."
 
-            "Engineer": This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best.
+            "Engineer": "This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best."
 
     Military officer: For INFJ types, it's very difficult to follow rigid instructions without concern for personal situations and emotions.
 

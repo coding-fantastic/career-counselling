@@ -505,11 +505,11 @@ class GetGourses(KnowledgeEngine):
             },
         'careersToAvoid':{
             
-            "Accounting and finance": "Jobs that focus more on profit and the bottom line than human elements can be frustrating for INFJ types."
+            "Accounting and finance": "Jobs that focus more on profit and the bottom line than human elements can be frustrating for INFJ types.",
 
-            "Emergency medical technician": "The unpredictable and sometimes chaotic nature of this job can be overwhelming for an INFJ type who loves order and quiet."
+            "Emergency medical technician": "The unpredictable and sometimes chaotic nature of this job can be overwhelming for an INFJ type who loves order and quiet.",
 
-            "Engineer": "This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best."
+            "Engineer": "This job involves too much practical, technical work as opposed to the intellectual, inquisitive thought that INFJ types like best.",
 
             "Military officer": "For INFJ types, it's very difficult to follow rigid instructions without concern for personal situations and emotions."
 

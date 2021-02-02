@@ -772,6 +772,8 @@ class GetGourses(KnowledgeEngine):
 
             "Manager":" ISTP types prefer to work on detailed tasks rather than deal with coworker dynamics and big-picture projects.",
 
+            "Marketer":"There are no clear-cut solutions to marketing challenges, which can be frustrating for problem-solving ISTP types."
+
             
         }
         }))

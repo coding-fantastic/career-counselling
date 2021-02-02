@@ -259,7 +259,23 @@ class GetGourses(KnowledgeEngine):
     #ENFJ
     @Rule(Questions(answers=["ENFJ", "Science", "Technical", "A"]))
     def enfj_STA(self):
-        self.declare(Fact(courses=['You are an ENFJ- You encourage others to actualize themselves and show excelent leadership and interpersonal skills','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
+        self.declare(Fact(courses={
+        'type':'You are an ENFJ - Extrovert Intuition Feeling Judging .',
+        "main":"Those classified as ENFJ have a strong presence and natural leadership skills. They can be honest about their ideas and opinions while being mindful of others' feelings. The ENFJ will also commonly articulate and defend her believes.These individuals are extremely driven, but they don't let this distract them from the needs of those around them. They are typically empathetic and will intuitively find ways to help those around them. They feel compelled to make the world a better place and constantly look for opportunities to improve things.Characteristics that describe most ENFJ individuals are : Charismatic , Confident , Empathic , Energetic , Passionate",
+        'careers':{
+            "":"",
+            "":"",
+            "":"",
+            "":"",
+             
+            },
+        'careersToAvoid':{
+            "":"",
+            "":"",
+            "":"",
+            
+        }
+        }))
 
     @Rule(Questions(answers=["ENFJ", "Science", "Technical", "B"]))
     def enfj_STB(self):
@@ -550,7 +566,29 @@ class GetGourses(KnowledgeEngine):
     #INTJ
     @Rule(Questions(answers=["INTJ", "Science", "Technical", "A"]))
     def intj_STA(self):
-        self.declare(Fact(courses=['You are an INTJ- You are good at grasping difficult complex concepts and building strategies','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
+        #self.declare(Fact(courses=['You are an INTJ- You are good at grasping difficult complex concepts and building strategies','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
+        self.declare(Fact(courses={
+        'type':'You are an INTJ - Introvert Intuition Thinking Judging .',
+        "main":"The INTJ type is guided by reason and logic and has a thirst for knowledge. They are highly confident and seek to reform and improve the world around them. Even though they have lots of self-confidence, INTJs can be uncomfortable in large groups or among people they don’t know well. They prefer to bond over ideas rather than engage in superficial small talk.Their talent for recognizing deeper connections and possibilities makes INTJs natural problem solvers who seek to improve themselves and the world around them. Because they are highly analytical, INTJs may struggle to understand people who rely more on emotions than reason in their decision making. Due to their independent nature, INTJs are selective in their relationships and prefer the company of like-minded thinkers. However, their thirst for knowledge drives them to learn from others and engage in collaborative conversation. INTJs can also have judgemental and perfectionist tendencies—this can be an asset when they are tasked with producing high quality work but it can also cause tension in some workplace relationships.",
+        'careers':{
+            "Finacial advisor":"",
+            "Accountant":"",
+            "Auditor":"",
+            "Economist":"",
+            "School administrator":"",
+            "Guidance counselor":"",
+            "Paralegal":"",
+            "Personal trainer":"",
+            "Physician":"",
+             
+            },
+        'careersToAvoid':{
+            "Real estate agent":"",
+            "Chilcare worker ":"",
+            "Police officer":"",
+            
+        }
+        }))
 
     @Rule(Questions(answers=["INTJ", "Science", "Technical", "B"]))
     def intj_STB(self):
@@ -948,7 +986,6 @@ class PersonalityTest(KnowledgeEngine):
 
     @Rule(Questions(answers=["Introvert", "Sensing", "Thinking","Perceiving"]))
     def istp(self):
-        #self.declare(Fact(personality=['ISTP']))
         #self.declare(Fact(personality=['ISTP']))
         self.declare(Fact(courses={
         'type':'You are an ISTP - Introvert Sensing Thinking Perceiving .',

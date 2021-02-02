@@ -263,10 +263,18 @@ class GetGourses(KnowledgeEngine):
         'type':'You are an ENFJ - Extrovert Intuition Feeling Judging .',
         "main":"Those classified as ENFJ have a strong presence and natural leadership skills. They can be honest about their ideas and opinions while being mindful of others' feelings. The ENFJ will also commonly articulate and defend her believes.These individuals are extremely driven, but they don't let this distract them from the needs of those around them. They are typically empathetic and will intuitively find ways to help those around them. They feel compelled to make the world a better place and constantly look for opportunities to improve things.Characteristics that describe most ENFJ individuals are : Charismatic , Confident , Empathic , Energetic , Passionate",
         'careers':{
-            "":"",
-            "":"",
-            "":"",
-            "":"",
+            
+            "Guidance counselor":"ENFJs' highly empathic nature makes them very good at counseling others. They're naturally inclined to try to learn more about the people around them and find ways to help. As a guidance counselor, this type of person can satisfy their desire to help others improve their lives every day. Some of the best ENFJ jobs are those that are directly related to creating a positive experience for other people.",
+            
+            "Teacher":"One of the common nicknames for the ENFJ personality type is “the teacher,” so it's no surprise that this career is well-suited to these individuals. They are skilled at explaining concepts to others based on their learning style. ENFJs are also highly empathetic, which is an important skill for teachers who need to evaluate and understand their students' thoughts and feelings. A teacher with an ENFJ personality is likely good at relating to her students and finding meaningful ways to connect with them.",
+            
+            "Public relations account manager":"Understanding the needs and motivations of others is also invaluable in a public relations career. ENFJs often find that they intuitively know how to navigate difficult or sensitive situations. They're also very self-controlled and self-directed, which helps them excel in this fast-paced field. The creative nature of the ENFJ individual is also valuable in public relations as these professionals must know how to appeal to the public effectively for brands and organizations.",
+            
+            "Sales manager":"Personal interaction is important to ENFJs, which makes them competitive candidates for sales manager roles. These individuals enjoy the process of finding out what others are interested in and identifying ways to meet people's needs. Well-organized and self-motivated, an ENFJ doesn't need much outside motivation to build a large client list. This personality type is perfect for a salesperson who works with products or services she personally believes in.",
+
+            "Art director":"ENFJs often have a strong interest in the arts. They are also good at evaluating and understanding the preferences of others. These skills all transfer well to art director positions. In this field, an ENFJ would likely be very good at identifying concepts that would appeal to a large number of people. Their natural teaching and communication skills are also valuable for pitching ideas to clients.",
+
+            "Human resources director":"Charming and sociable, ENFJs are easy for others to relate to. This makes them well-suited to a job in human relations where they're tasked with making the workplace comfortable and productive for employees. An ENFJ's intuition also helps them understand others' emotions well, which makes them excellent communicators."
              
             },
         'careersToAvoid':{

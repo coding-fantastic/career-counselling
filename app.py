@@ -743,7 +743,32 @@ class GetGourses(KnowledgeEngine):
     #ISTP
     @Rule(OR(Questions(answers=["ISTP", "Science", "Technical", "A"]), Questions(answers=["ISTP", "Science", "Technical", "B"])))
     def istp_STA(self):
-        self.declare(Fact(courses=['You are an ISTP- You stay calm under pressure, excel at jobs needing immediate attention','Military', "Police", "Detectives ", "Forensics", "Programmer", 'Computer and System analyst', 'Engineer', 'Mechanic','Pilot','Driver','Entrepreneur','Fire-Fighter','Paramedic','Dentist',]))
+        #self.declare(Fact(courses=['You are an ISTP- You stay calm under pressure, excel at jobs needing immediate attention','Military', "Police", "Detectives ", "Forensics", "Programmer", 'Computer and System analyst', 'Engineer', 'Mechanic','Pilot','Driver','Entrepreneur','Fire-Fighter','Paramedic','Dentist',]))
+        self.declare(Fact(courses={
+        'type':'You are an ISTP - Introvert Sensing Thinking Perceiving .',
+        
+        "main":"People with this personality type focus on information and facts when making decisions. ISTP types are also very adaptable and perceptive.In their work, ISTP personality types are known for their ability to troubleshoot problems in a practical manner. They prefer to do most of their work independently and can maintain a clear focus on the task at hand. ISTP types are generally quiet and observant, but they collaborate well with others when needed.Many ISTP personality types pursue a career in which they can produce tangible results. Many prefer analytical or technical tasks that allow them to apply practical solutions without bias or emotional considerations, which they find distracting in a work setting. When problems come up, they can adjust and find a quick solution. This personality type values efficiency and logic in their work and is known to go the extra mile to see a project through to the end. The following personality traits are closely associated with ISTP types: Capable, Curious, Detail oriented , Efficient , Flexible , Logical , Observant , Practical , Problem-solver ",
+        
+        'careers':{
+            
+            "Engineer":"Any kind of engineering work is a great fit for someone with an ISTP personality type. Their analytical minds are capable of grasping the intricate inner workings of things. As a computer hardware engineer, for example, an ISTP type can enjoy troubleshooting issues and putting together efficient computer systems.Engineering tasks also utilize this personality type's critical thinking skills and preference for logical solutions. ISTP personality types like the fact that engineering produces tangible results that have a practical purpose in the real world. The independent nature of this work is also appealing to ISTP types.",
+
+            "Technician": "Like engineering, technician work requires knowing the ins and outs of complex machinery. ISTP personality types are well-suited to this type of work since they enjoy troubleshooting problems. Whether they are working on airplanes, HVAC equipment or electrical systems, ISTP types get to put their problem-solving and logic skills to good use in this career path.People with this personality type excel at installing, maintaining and repairing a wide variety of equipment. Many technicians work individually or in small teams, which appeals to the introverted nature of ISTP types.",
+
+            "Construction worker": "Construction work gives ISTP personality types the opportunity to get involved in hands-on projects with a practical purpose. Those who like to be active with their work enjoy the physical element of constructing and renovating buildings. It also offers the opportunity to find logical solutions for building challenges. ISTP types have a detail-oriented nature that helps them make sure each task is done correctly and efficiently",
+
+            "Inspector":"Jobs like building inspector or health inspector are appealing to ISTP types since this work requires an analytical, detail-oriented mind. This personality type is adept at memorizing and applying a wide variety of rules and regulations. ISTP types don't like to rush through tasks, so they will take the time needed to be thorough in every inspection. The independent nature of the work appeals to quiet ISTP types.",
+
+            "Machinist": "Working with expensive and potentially dangerous equipment requires intense focus and attention to detail. Because ISTP personality types excel in both of these areas, they are well-suited to working as a machinist. This is also a great job for ISTP types because workers get to see the fruits of their labor being produced in real-time. Machinist work is solitary, which allows people with this personality to enjoy the kind of quiet, intense work they prefer.",
+             
+            },
+        'careersToAvoid':{
+            
+            
+
+            
+        }
+        }))
 
     @Rule(Questions(answers=["ISTP", "Science", "Technical", "C"]))
     def istp_STC(self):

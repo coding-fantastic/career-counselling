@@ -760,11 +760,17 @@ class GetGourses(KnowledgeEngine):
             "Inspector":"Jobs like building inspector or health inspector are appealing to ISTP types since this work requires an analytical, detail-oriented mind. This personality type is adept at memorizing and applying a wide variety of rules and regulations. ISTP types don't like to rush through tasks, so they will take the time needed to be thorough in every inspection. The independent nature of the work appeals to quiet ISTP types.",
 
             "Machinist": "Working with expensive and potentially dangerous equipment requires intense focus and attention to detail. Because ISTP personality types excel in both of these areas, they are well-suited to working as a machinist. This is also a great job for ISTP types because workers get to see the fruits of their labor being produced in real-time. Machinist work is solitary, which allows people with this personality to enjoy the kind of quiet, intense work they prefer.",
+
+            "Forensic Scientist": "Forensic science requires excellent attention to detail, problem-solving skills and critical thinking skills. For these reasons, it's a great fit for ISTP types. It involves tangible evidence, such as fingerprints and DNA, and much of the work takes place in a quiet lab environment. From collecting and analyzing samples to writing reports and recalling details during court testimony, the job requirements of a forensic scientist make good use of the traits associated with the ISTP personality type. "
              
             },
         'careersToAvoid':{
             
-            
+            "Artist":"Although ISTP types like to create tangible things in their work, they prefer practical work to creative pursuits.",
+
+            "Clergy":"As with social work, this career path is not a good fit for the ISTP type’s preference for logical, analytical tasks.",
+
+            "Manager":" ISTP types prefer to work on detailed tasks rather than deal with coworker dynamics and big-picture projects.",
 
             
         }

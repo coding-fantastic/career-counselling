@@ -278,9 +278,17 @@ class GetGourses(KnowledgeEngine):
              
             },
         'careersToAvoid':{
-            "":"",
-            "":"",
-            "":"",
+            
+            "Accountant":"ENFJ individuals typically require a decent amount of personal interaction. Accountants and other financial specialists typically spend more time working alone. ",
+            
+            "IT specialist":"An ENFJ should probably avoid work in IT and other areas that focus more on technology and equipment than on people.",
+            
+            "Law enforcement":"While there are many aspects of law enforcement that may appeal to an ENFJ, this can be a difficult path for these individuals to pursue. Negative outcomes weigh heavily on those with this type of personality.",
+
+            "Mechanical engineer":"Working closely with machinery is might be too impersonal of a career for most ENFJ personality types. The work in this field also tends to be clear-cut when ENFJs enjoy working with nuance and ambiguity.",
+
+            "Researcher":"While ENFJs enjoy learning, they do it better in a social environment where they interact closely with others and explore topics in a hands-on way."
+
             
         }
         }))

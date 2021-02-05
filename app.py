@@ -424,9 +424,13 @@ class GetGourses(KnowledgeEngine):
             "Technical support specialist":"",
             
             "Corporate ins":"",
+            
             "Editor":"",
+            
             "Librarian":"",
+            
             "College professor":"",
+            
             "Medical researcher":"",
              
             },

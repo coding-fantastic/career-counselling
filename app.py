@@ -378,13 +378,13 @@ class GetGourses(KnowledgeEngine):
 
         'careers':{
             
-            "":"",
+            "Sales representative":"Sales representatives are responsible for attending to the needs of a client or book of clients. Common tasks include following up with clients and leads, creating ROI and sales presentations and finding the right products and services to fit a client’s needs. ESFPs are great at building and maintaining relationships, which is key to any sales representative’s success.",
 
-            "":"",
+            "Event planner":"The best ESFP careers are those that give these individuals the chance to earn money with activities they would already be doing. An ESFP will likely spend plenty of her free time planning gatherings. As an event planner, he can turn this trait into a lucrative job. Event planners can specialize in specific events such as corporate gatherings, trade shows, press events or weddings.",
 
-            "":"",
+            "Cosmetologist":"Whether they're applying makeup or styling hair, ESFPs can apply their personable nature and attention to detail in this field. Though an ESFP knows how to command attention, these individuals are also very attentive to the needs of others, which makes them especially skilled at coming up with the right look for any client.",
 
-            "":"",
+            "Professional entertainer":"ESFPs with a talent for acting, singing, comedy or any other type of performance art are likely to succeed in show business. These same talents can be put to work in more traditional careers as well, such as motivational speaking, corporate training or education.",
             
             },
         'careersToAvoid':{

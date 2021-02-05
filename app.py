@@ -412,7 +412,38 @@ class GetGourses(KnowledgeEngine):
     #ESFJ
     @Rule(Questions(answers=["ESFJ", "Science", "Technical", "A"]))
     def esfj_STA(self):
-        self.declare(Fact(courses=['You are an ESFJ- You apply natural warmth at building relationships','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
+        #self.declare(Fact(courses=['You are an ESFJ- You apply natural warmth at building relationships','Military', "Police", "Civil Servant", "Nurse", "Technical Teacher"]))
+        self.declare(Fact(courses={
+        'type':'You are an ESFJ - Extrovert Sensing Feeling Judging .',
+        "main":"ESFJs are serious and practical, committed to their responsibilities, and sensitive to the needs of others. They strive for harmony and are generous with their time, efforts, and emotions, and are eager to please—both at work and at home. ESFJs value loyalty and tradition and hold to a strict moral code. They typically enjoy their routines and maintain a regular schedule that allows them to stay organized and productive.Because ESFJs are sympathetic to the needs of others, they’re quick to lend a helping hand. Due to their strong sense of order and a desire for solidarity, they often assume professional roles that allow them to establish and maintain structures and processes. Because ESFJs seek cooperation and harmony in the workplace, they gravitate toward roles that allow them to enforce social order. Often, there is no gray area with this personality type; to them, actions are either right or wrong, and their orderliness and practicality prompt them to expect the same from others.As long as they maintain a consistent routine, ESFJs can be comfortable in a variety of career fields. Sensitive to the feelings of others, this personality is skilled at social interaction and adept at reading social cues. Driven by a strong sense of duty, they are loyal to their workplace and usually quite popular.Here is a list of the best ESFJ careers and fields: ",
+
+        'careers':{
+            
+            "Photojournalist":"",
+            
+            "Technical support specialist":"",
+            
+            "Corporate ins":"",
+            "Editor":"",
+            "Librarian":"",
+            "College professor":"",
+            "Medical researcher":"",
+             
+            },
+        'careersToAvoid':{
+
+            "Software developer":"",
+            
+            "Freelancer":"",
+            
+            "Actor":"",
+            
+            "Attorney":"",
+            
+            "Journalist":""
+            
+        }
+        }))
 
     @Rule(Questions(answers=["ESFJ", "Science", "Technical", "B"]))
     def esfj_STB(self):

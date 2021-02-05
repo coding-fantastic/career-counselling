@@ -385,6 +385,12 @@ class GetGourses(KnowledgeEngine):
             "Cosmetologist":"Whether they're applying makeup or styling hair, ESFPs can apply their personable nature and attention to detail in this field. Though an ESFP knows how to command attention, these individuals are also very attentive to the needs of others, which makes them especially skilled at coming up with the right look for any client.",
 
             "Professional entertainer":"ESFPs with a talent for acting, singing, comedy or any other type of performance art are likely to succeed in show business. These same talents can be put to work in more traditional careers as well, such as motivational speaking, corporate training or education.",
+
+            "Flight attendant":"Flight attendants must be flexible, easygoing and attentive. These requirements are rarely a challenge for an ESFP. These individuals are often looking to expand their social circles and meet new people and are usually comfortable working with all types of people. This personality type is well equipped for the task of welcoming passengers onto the plane and keeping them comfortable throughout their flight. An ESFP may also enjoy taking advantage of the opportunity to travel, experience new places and take on a new group of people each time the plane takes flight.",
+
+            "Vacation planner":"ESFPs have a knack for creativity and originality while keeping practicality in mind. As vacation planners, these individuals will be able to combine inventive ideas with workable arrangements to put together great travel experiences for their clients. Their observant natures will also help them pinpoint the types of vacations that are best for each customer.",
+
+            "Tour guide":"As a tour guide, an ESFP gets to interact with others every day. They're resourceful and flexible, which will help them deal with the varying needs of different groups. As strong speakers, ESFPs typically have no trouble giving presentations to travelers. These individuals are usually good at working with people and enjoy socializing with a diverse group of personalities around them. The best ESFP personality careers in this area are those with a variety of tasks as well, such as a position that includes many different tours."
             
             },
         'careersToAvoid':{

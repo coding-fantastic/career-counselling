@@ -371,7 +371,33 @@ class GetGourses(KnowledgeEngine):
     #ESFP
     @Rule(OR(Questions(answers=["ESFP", "Science", "Technical", "A"]), Questions(answers=["ESFP", "Science", "Technical", "B"])))
     def esfp_STA(self):
-        self.declare(Fact(courses=['You are an ESFP- You are Optimistic, Fun-Loving and your enthusiasm is motivational','Teacher', "Counsillor", "Social Worker", "Child care", "Consultant", 'Therapist']))
+        #self.declare(Fact(courses=['You are an ESFP- You are Optimistic, Fun-Loving and your enthusiasm is motivational','Teacher', "Counsillor", "Social Worker", "Child care", "Consultant", 'Therapist']))
+        self.declare(Fact(courses={
+        'type':'You are an ESFP - Extrovert Sensing Feeling Perceiving .',
+        "main":"ESFPs typically enjoy the spotlight. Bubbly and engaging.  ESFPs are excellent at entertaining, but they're not self-centered. Rather, they have strong emotional intelligence and excel at reading the moods of those around them. An ESFP can easily adjust her presentation to suit her audience.An ESFP is naturally entertaining to be around and seek out the beauty in everything they find, whether they're marveling at nature on a hike or swooning over apparel on the runway. Some terms that naturally describe an ESFP individual are:     Spontaneous  ,  Fun-loving  ,  Warm  ,  Personable  ,  Playful  ,  Open  ,  Active  ,  Energetic ",
+
+        'careers':{
+            
+            "":"",
+
+            "":"",
+
+            "":"",
+
+            "":"",
+            
+            },
+        'careersToAvoid':{
+            
+            "":"",
+
+            "":"",
+
+            "":""
+
+            
+        }
+        }))
 
     @Rule(Questions(answers=["ESFP", "Science", "Technical", "C"]))
     def esfp_STC(self):

@@ -694,7 +694,9 @@ class GetGourses(KnowledgeEngine):
         self.declare(Fact(courses={
         'type':'You are an INFP - Introvert Intuition Feeling Perceving .',
         'main':'  INFPs are quiet and prefer not to talk about themselves. They enjoy spending time alone in quiet places. They love analyzing signs and symbols and enjoy getting lost in their imagination and daydreams. In professional environments, INFPs seek to learn new things and change the world. While they usually bring intensity and enthusiasm to projects, they often find it challenging to sustain their excitement for long periods of time. If you are an INFP, some careers you may want to consider are:',
+        
         'careers':{
+        
             "Writer":"INFP Personality Types have great skills for expression, both verbal and written, making a career as a writer an ideal choice. Whether authoring a novel, writing a blog, or drafting long-form investigative pieces for a newspaper, INFPs would especially excel in this career if given the opportunity to write about a topic that was meaningful to them. To become a writer, a bachelor's degree in journalism, communications, or English is typically a good starting point. ",
 
             "Social Worker":"Social workers work with individuals, families, and communities during times of hardship, such as providing help to a single mother, or working with a community that is poverty-stricken. They work closely with individuals and may develop close relationships, connecting individuals with various state, federal, and private assistance programs. An INFP Personality Type would do well as a social worker because this field allows them to bring positive change to the lives of many people through communication and problem solving skills. Entry-level social workers generally need a bachelor's degree in social work, though some individuals may also wish to pursue a master's degree to have other opportunities in this field. ",
@@ -702,18 +704,31 @@ class GetGourses(KnowledgeEngine):
             "School and Career Counselor":"School and career counselors work with students as they make decisions regarding their studies and future careers. An INFP Personality Type would relish the opportunity to provide personalized guidance and career planning for students. These professionals assist with students' academic and personal issues, and provide tools for goal setting. To become a school and career counselor, you will need to achieve a master's degree in counseling and be licensed by the state in which you work.",
 
             "Physical Therapist":"An INFP Personality Type would make an excellent physical therapist because their unrelenting sense of optimism would likely help clients and patients who are undergoing painful physical therapy. Physical therapists diagnose ailments and create personalized therapy plans for recovery and wellness. Many physical therapists develop personal relationships with their clients, which an INFP greatly enjoys. Physical therapists must complete a Doctor of Physical Therapy program in order to practice. ",
+        
             "Editor":"",
+        
             "Graphic Designer":"",
+        
             "Photographer":"",
+        
             "Film editor":"",
+        
             "Videographer":"",
+        
             "Interpreter or translator":"",
+        
             "Editorial director":"",
+        
             "Technical writer":"",
+        
             "Content strategist":"",
+        
             "Human resources manager":"",
+        
             "Fundraising manager":"",
+        
             "UX designer":"",
+        
             "Design technologist":"",
 
 
@@ -721,11 +736,15 @@ class GetGourses(KnowledgeEngine):
 
             },
         'careersToAvoid':{
+        
             "Retail Sales Workers":"Retail sales workers, who only need on-the-job training, may help customers locate items, take payments for purchases, and arrange products in the store. INFP personalities may find that this type of work offers limited opportunities to use their creativity and that it lacks the meaning they desire from their work. Retail sales workers typically have a pretty consistent work routine as well, and the lack of variety may not appeal to INFP personality types. ",
             
             "Principals":"School principals have a lot of people and resources that they oversee. They normally need a master's degree and license, and they use their skills to make decisions about things like school schedules and budgets. Those with an INFP personality may find it overwhelming to deal with so many people on a regular basis; INFPs are introverts and tend to prefer working with people one-on-one or in small groups, and addressing an entire school population or groups of parents may not appeal to them. Principals also have to make a lot of conventional decisions, which is not one of the INFP strengths." ,
+            
             "Sales Manager":"",
+            
             "Performer":"",
+            
             "Police Officer":"",
         }
         }))

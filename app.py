@@ -395,11 +395,11 @@ class GetGourses(KnowledgeEngine):
             },
         'careersToAvoid':{
             
-            "":"",
+            "Technial writer":"Though ESFPs are creative, they do a better job of displaying this trait in front of a crowd than on a piece of paper. Writing is a solitary career that won't give an ESFP the amount of social interaction that he needs.",
 
-            "":"",
+            "Accountant":"Accounting is a satisfying career for those who enjoy logic and order, but ESFPs are more flexible and creative. They crave interaction with people more than numbers. ",
 
-            "":""
+            "Human resources":"HR professionals have a lot of contact with people, which may draw an ESFP in. However, the shine will quickly wear off of this type of job as it becomes routine. "
 
             
         }

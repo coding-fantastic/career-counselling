@@ -582,17 +582,18 @@ class GetGourses(KnowledgeEngine):
     @Rule(OR(Questions(answers=["INFJ", "Science", "Technical", "A"]), Questions(answers=["INFJ", "Science", "Technical", "B"])))
     def infj_STA(self):
         self.declare(Fact(courses={
-        'type':'You are an INFJ - Introvert Intution Feeling Judging .',
+        "type":"You are an INFJ - Introvert Intution Feeling Judging .",
+
         "main":" This personality type is known for being insightful, creative and decisive, all of which are qualities that make them an excellent fit for certain career paths. Learn more about the unique skills and abilities associated with INFJ types, and find out which jobs are the best fit for people with this personality. Their intuitive nature allows them to interpret and add meaning when presented with information. They make choices based on feeling, which involves taking emotions and complex circumstances into account. They tend to be decisive and trust their judgment when evaluating a situation or person. The following characteristics are considered to be the most common INFJ personality traits:    Altruistic    Creative    Decisive    Dedicated    Empathetic    Helpful    Idealist    Insightful    Loyal    Quiet    Reflective    Strategic .  When it comes to their careers, INFJ types like to work independently or in small groups. They appreciate a peaceful work environment that provides time to fully develop their ideas. They are deep thinkers who like to apply their intellect to work challenges. Once INFJ types develop a plan, they are good at following through. They are empathetic and caring individuals, so most people with this personality type pursue a meaningful career that contributes to the well-being of others. ",
 
         'careers':{
-            "Human resources professional":" ",
+            "Human resources professional":"A human resources (HR) manager is responsible for recruiting, interviewing and hiring new staff as well as serving as the link between the company's employees and management. This role is responsible for developing and implementing plans and procedures, like personnel policies and overseeing the work of the HR department. An HR manager has several responsibilities related to coordinating the administrative functions of an organization, including: Conducting new employee orientations and exit interviews, Writing job descriptions and placing job ads, Analyzing and updating the company's salary budget , Recommending new personnel policies and procedures as needed , Developing HR department goals and objectives. Education While some companies may allow experience as a substitute for a degree, HR manager positions typically require a bachelor's degree, ideally in human resources, finance, information technology, education, business management or a related field. Higher-level positions such as a senior HR manager may require a Master's Degree in Human Resources or Business Administration (MBA). ",
 
             "Entrepreneur":"",
 
             "Environmental officer":"",
             
-            "Office manager":"", 
+            "Office manager":"An office manager uses organizational and management skills to facilitate and support the operation of a business office . They complete the necessary administrative tasks to keep the office running efficiently . Office managers also have the following responsibilities: Maintaining office procedures including payroll , scheduling and processing of paperwork, Organizing record-keeping systems including filing , protecting , accessing and destroying employee documents. , Creating and managing office budgets and bookkeeping activities. , Hiring training and supervising other administrative employees. , Planning and coordination employee meetings and work-related events. Education - A minimum of a high school diploma or equivalent is required to be an office manager. Many employers , would choose someone with a bachelors's degree . Related degress include business administration , human resources management or information management.", 
 
             "Product manager":"",
 
@@ -892,24 +893,26 @@ class GetGourses(KnowledgeEngine):
         #self.declare(Fact(courses=['You are an ISTJ - You are a person who appers serious and formal. You love  traditions and believe in values like honor, hard work and social responsibility.',' You are typically reserved, quiet, calm and upright.','  At work, you are known for being responsible and reliable.',' You thrive in an organized workplace and prefer to have rules laid out for you. ',' You like to use analytical and critical thought and you are highly detail-oriented.',' If you are an ISTJ, you may want to consider the following roles:']))
         #self.declare(Fact(courses))
         self.declare(Fact(courses={
-        'type':'You are an ISTJ - Introvert Sensing Thinking Judging .',
-        'main':' People with this personality generally appear serious and formal. They usually love traditions and believe in values like honor, hard work and social responsibility. They are typically reserved, quiet, calm and upright. At work, they are known for being responsible and reliable. They thrive in an organized workplace and prefer to have rules laid out for them. They like to use analytical and critical thought and are highly detail-oriented. If you are an ISTJ, you may want to consider the following roles:',
-        'careers':{
-            'Business analyst':'ISTJ types love order and structure, which makes them a good fit for a business analyst position. This job involves gathering, organizing and processing data to come up with decisive recommendations about the business. Working with concrete numbers and statistics is something that ISTJ types excel at and enjoy. Managing and sorting through lots of information is easy for ISTJ types since they are very organized and detail-oriented. This is offered in SCHOOL OF BUSINESS in .  - University of Nairobi. , Kenyatta University , Mount Kenya University  , Daystar University  , Strathmore University , Technical University of Kenya , JKUAT.',
+        "type":"You are an ISTJ - Introvert Sensing Thinking Judging .",
+
+        "main":"People with this personality generally appear serious and formal. They usually love traditions and believe in values like honor, hard work and social responsibility. They are typically reserved, quiet, calm and upright. At work, they are known for being responsible and reliable. They thrive in an organized workplace and prefer to have rules laid out for them. They like to use analytical and critical thought and are highly detail-oriented. If you are an ISTJ, you may want to consider the following roles:",
+
+        "careers":{
+            "Business analyst":"ISTJ types love order and structure, which makes them a good fit for a business analyst position. This job involves gathering, organizing and processing data to come up with decisive recommendations about the business. Working with concrete numbers and statistics is something that ISTJ types excel at and enjoy. Managing and sorting through lots of information is easy for ISTJ types since they are very organized and detail-oriented. This is offered in SCHOOL OF BUSINESS in .  - University of Nairobi. , Kenyatta University , Mount Kenya University  , Daystar University  , Strathmore University , Technical University of Kenya , JKUAT.",
             
             "Supply chain manager":"As supply chain managers, ISTJ personality types get to use their skills to figure out the complicated logistics of a company's supply chain. Their detail-oriented approach ensures that all data is tracked efficiently, while their critical-thinking skills help them to come up with solutions for distribution challenges. Supply chain management involves a lot of moving parts, and ISTJ types relish the chance to make sure everything functions smoothly and efficiently to maximize profits. Offered in University of Nairobi , Kenyatta university , Machakos University College, Daystar University , KCA University  , JKUAT , Kenyatta University ",
 
-            'Certified public accountant':'Working as a CPA is a great way for ISTJ types to demonstrate their analytical abilities. This career offers the chance to work with concrete data and make sure everything adheres to strict regulations. ISTJ types are responsible rule followers as well, which makes them trustworthy when it comes to managing money and investments. Much of the work is done independently and takes place in a quiet, structured environment. This career is stable and predictable, which people with this personality type commonly appreciate. This is offered in KCA Technical College',
+            "Certified public accountant":"Working as a CPA is a great way for ISTJ types to demonstrate their analytical abilities. This career offers the chance to work with concrete data and make sure everything adheres to strict regulations. ISTJ types are responsible rule followers as well, which makes them trustworthy when it comes to managing money and investments. Much of the work is done independently and takes place in a quiet, structured environment. This career is stable and predictable, which people with this personality type commonly appreciate. This is offered in KCA Technical College",
 
             "Dentist":"ISTJ types excel in dentistry due to the detail-oriented and orderly nature of the work. Dentists practice in quiet, clean offices and usually work independently. The tasks of the job, including patient exams, analyzing x-rays and diagnosing dental issues, are fairly predictable and make good use of this personality type's logical thought processes. ISTJ types are skilled at maintaining focus on complex dental tasks, like filling cavities, extracting teeth and applying sealants or crowns. Colleges and Universities offering Bachelor of Denatal Surgery in Kenya : Moi University , University of Nairobi, Mt. Kenya University Nakuru Campus, Kenyatta University",
 
             "Bank Teller":"Because ISTJ types are methodical and detail-oriented, a job as a bank teller is a great fit for their skills. This position requires a high level of responsibility which trustworthy ISTJ types are adept at handling. They are also good at noting discrepancies and following strict rules, which helps them to prevent fraud and ensure that all financial transactions are completed accurately. This personality type excels at following detailed guidelines for processing deposits, withdrawals, transfers, money orders and other types of transactions. This is offered in KCA Technical College, University of nairobi , Kenyatta university , Daystar University , JKUAT , Moi University  in School of Business ",
              
             },
-        'careersToAvoid':{
-            'Bartender':'This type of job is very social, which can be exhausting for introverted ISTJ types.',
-            'Event Management':'Frequent last-minute changes and difficult dynamics with certain clients would be frustrating for an ISTJ type.',
-            'Public relations':'ISTJ types prefer a job that keeps them out of the public eye.',
+        "careersToAvoid":{
+            "Bartender":"This type of job is very social, which can be exhausting for introverted ISTJ types.",
+            "Event Management":"Frequent last-minute changes and difficult dynamics with certain clients would be frustrating for an ISTJ type.",
+            "Public relations":"ISTJ types prefer a job that keeps them out of the public eye.",
         }
         }))
 
